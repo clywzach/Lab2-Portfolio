@@ -1,0 +1,27 @@
+<html>
+<head>
+  <link rel= "stylesheet" href = "DarkestDungeon.css">
+  <script type = "text/javascript">
+  function mySpecial(){
+    location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/win.html");
+  }
+  function myNormal(){
+    location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/lose.html");
+  }
+  function myRun(){
+    location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/run.html");
+  }
+  </script>
+</head>
+<body>
+  <div id = "Monster">
+  <h3> Oh no! A Swamp Monster has appeared! Which attack will you choose... </h3>
+  <center> <img src = "https://i.pinimg.com/originals/0a/55/f9/0a55f9f83e9daef83865b83d391fa1e9.gif"> </center>
+  </div>
+<div id = "Attacks">
+    <button type = "button" onclick = "mySpecial()"> Special Attack: Arrow of Light </button>
+    <button type = "button" onclick = "myNormal()"> Normal Attack: Piercing Arrow </button>
+     <button type = "button" onclick = "myRun()"> Run away </button> 
+</div>
+</body>
+</html>

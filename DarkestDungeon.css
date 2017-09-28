@@ -1,0 +1,23 @@
+<style>
+
+#Greeting{
+  background-color: navy;
+  color: lightgrey;
+}
+body{
+	text-align:center;
+}
+
+#Death{
+  text-align: center;
+  color: red;
+}
+#Attacks{
+  
+}
+
+body {
+  background-color: darkgrey;
+}
+
+</style>

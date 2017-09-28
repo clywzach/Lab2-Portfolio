@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel= "stylesheet" href = "DarkestDungeon.css">
+<script type = "text/javascript">
+alert("Welcome to the Deep Dungeon. Will you survive through the night? Pick a class to find out.");
+  function myArcher()
+  {
+	location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/mA.html");
+  }
+  function myWarrior()
+  {
+	location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/mW.html");
+  }
+  function myMage()
+  {
+	location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/mM.html");
+  }
+  function myRogue()
+  {
+	location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/mR.html");
+  }
+  function myTownsperson()
+  {
+	location.assign ("http://ec2-18-220-110-240.us-east-2.compute.amazonaws.com/tp.html");
+  }
+</script>
+</head>
+<body>
+    <h1 id = "Greeting"> Deep Dungeon </h1>
+  <div id = "HowTo">
+	<p> Please select a class to begin your journey </p>
+  </div>
+  <div id = "Archer">
+	<h3 onclick = "myArcher()"> Archer </h3>
+	<img src = "https://i.pinimg.com/originals/c3/b9/2d/c3b92d3a88601ee169319e0a242991bb.gif" onclick = "myArcher()">
+  </div>
+  <div id = "Warrior">
+	<h3 onclick = "myWarrior()"> Warrior </h3>
+	<img src = "https://orig00.deviantart.net/276f/f/2016/130/2/1/output_xyrmst_by_dal_bo-da2096y.gif" onclick = "myWarrior()" >
+  </div>
+  <div id = "Mage">
+	<h3 onclick = "myMage()"> Mage </h3>
+	<img src = "http://rs665.pbsrc.com/albums/vv15/ChainFire101/BlackMage-Fire.gif~c200" onclick = "myMage()">
+  </div>
+  <div id = "Rogue">
+	<h3 onclick = "myRogue()"> Rogue </h3>
+	<img src = "https://opengameart.org/sites/default/files/idle_11.gif" onclick = "myRogue()">
+  </div>
+  <div id = "Townsperson">
+	<h3 onclick = "myTownsperson()"> Townsperson </h3>
+	<img src = "http://68.media.tumblr.com/tumblr_ma7vzqcIlK1qfl6a2o1_250.gif" onclick = "myTownsperson()">
+  </div>
+</body>
+</html>
